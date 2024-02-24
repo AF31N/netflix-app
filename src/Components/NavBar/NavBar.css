@@ -1,0 +1,63 @@
+/* NavBar.css */
+
+/* NavBar.css */
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: transparent; /* Initial transparent background */
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.navbar.scrolled {
+  background-color: black; /* Change to black when scrolled */
+}
+
+/* Your other styles for logo, nav-right, etc. */
+
+
+.logo {
+  width: 150px;
+  height: auto;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+span {
+  margin-right: 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+span:last-child {
+  padding: 8px 12px;
+  border-radius: 5px;
+  font-weight: bold;
+  background-color: #e50914;
+  transition: background-color 0.3s ease;
+}
+
+span:last-child:hover {
+  background-color: #ff0a16;
+}
+
+/* Your other styles for the navbar */
+

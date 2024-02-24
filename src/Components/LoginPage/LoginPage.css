@@ -1,0 +1,72 @@
+/* LoginPage.css */
+/* LoginPage.css */
+.login-page {
+  height: 100vh;
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url('https://user-images.githubusercontent.com/33485020/108069438-5ee79d80-7089-11eb-8264-08fdda7e0d11.jpg');
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Customize styles according to Netflix's design */
+.login-container {
+  background-color: transparent; /* Remove the semi-transparent black background */
+  padding: 40px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+/* Rest of your styles remain unchanged */
+
+
+.netflix-logo {
+  font-size: 2.5rem;
+  color: #e50914; /* Netflix red */
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input[type='email'],
+.input[type='password'] {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.button[type='submit'] {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  background-color: #e50914; /* Netflix red */
+  color: white;
+  font-weight: bold;
+}
+
+.additional-info {
+  margin-top: 20px;
+  color: white;
+}
+
+.additional-info a {
+  color: #e50914; /* Netflix red */
+}
+.sign-in-link{
+  text-decoration: none;
+  color: #fff;
+}
+
+  

@@ -1,0 +1,93 @@
+/* Banner.css */
+/* ... (Previous styles remain unchanged) */
+
+.banner {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    height: calc(100vw * 9 / 16); /* Set height responsive to width for 16:9 ratio */
+    max-height: 90vh; /* Limit the maximum height to maintain visibility */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 4rem;
+  }
+  
+  /* Overlay settings */
+  .banner::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 0; /* Move the overlay behind */
+  }
+  
+  .content {
+    max-width: 60%;
+    margin-bottom: 3rem;
+    position: relative;
+    z-index: 1; /* Ensure content appears above the overlay */
+  }
+  
+  /* Adjusted font styles */
+ /* Banner.css */
+
+/* ... (Previous styles remain unchanged) */
+
+/* Font Styles (using Helvetica Neue as a substitute) */
+.title {
+  font-size: 3.5rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+  color: #fff;
+  font-family: 'Helvetica Neue', sans-serif;
+  /* Add any necessary text shadow */
+}
+
+.button {
+  font-weight: 700;
+  border-radius: 5px;
+  padding: 1rem 2rem;
+  color: #fff;
+  background-color: #e50914;
+  cursor: pointer;
+  margin-right: 1rem;
+  transition: background-color 0.3s, color 0.3s;
+  font-family: 'Helvetica Neue', sans-serif;
+}
+
+.button:hover {
+  color: #e50914;
+  background-color: #fff;
+}
+
+.description {
+  font-size: 1.3rem;
+  line-height: 1.5;
+  max-width: 90%;
+  color: #fff;
+  text-align: justify;
+  font-family: 'Helvetica Neue', sans-serif;
+}
+
+/* ... (Other styles remain unchanged) */
+
+  .fade_bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 8rem; /* Increased the faded area for more contrast */
+    background-image: linear-gradient(
+      180deg,
+      transparent,
+      rgba(0, 0, 0, 0.8),
+      #000
+    );
+  }  
+  
+  
+  

@@ -1,0 +1,36 @@
+.row {
+    margin-left: 20px;
+    color: #fff;
+}
+
+.posters {
+    display: flex;
+    padding: 20px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    gap: 10px; /* Add gap between posters */
+}
+
+.posters::-webkit-scrollbar {
+    display: none;
+}
+
+.poster, .smallposter {
+    max-height: 250px; /* Set maximum height for posters */
+    margin-right: 10px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Add box-shadow transition */
+}
+
+.poster:hover, .smallposter:hover {
+    transform: scale(1.05); /* Increase size on hover */
+    cursor: pointer;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3); /* Add shadow on hover */
+}
+
+.smallposter {
+    max-height: 150px; /* Set maximum height for small posters */
+}
+
+
+
+    
