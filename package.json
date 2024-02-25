@@ -1,6 +1,7 @@
 {
   "name": "netflix",
   "homepage": "https://AF31N.github.io/netflix-app",
+  "homepage": "https://react-appnetflix.netlify.app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

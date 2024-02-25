@@ -17,7 +17,8 @@ function RowPost(props) {
       .catch((err) => {
         console.error('Network error', err);
       });
-  }, []);
+  }, [props.url]); // Include props.url in the dependency array
+
 
   const handleMovie = (id) => {
     axios
